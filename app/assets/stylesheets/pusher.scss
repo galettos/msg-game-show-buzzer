@@ -1,0 +1,35 @@
+
+.notification {
+	position: absolute;
+	font-size: 4em;
+	text-align: center;
+	top: 20%;
+	left: 20%;
+	margin: 100px auto 0 auto;
+	font-family: Helvetica;
+	text-transform: uppercase;
+	color: black;
+	z-index: 9999;
+
+}
+
+.player-name {
+	color: white;
+	margin: 100px auto 0 auto;
+	text-align: center;
+	font-size: 2.3em;
+	font-family: 'Helvetica-Neue', Helvetica;
+	font-weight: 200;
+	text-transform: uppercase;
+}
+
+
+#buzzer {
+	margin: 50px auto 0 auto;
+}
+
+
+a:active {
+	-webkit-filter: hue-rotate(90deg);
+	filter: hue-rotate(90deg);
+}
