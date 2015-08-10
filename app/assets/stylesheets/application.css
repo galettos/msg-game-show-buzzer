@@ -13,5 +13,6 @@
  *= require_tree .
  *= require_self
  *= require reveal
+ *= require reveal-theme/default 
  *= require animate
  */
