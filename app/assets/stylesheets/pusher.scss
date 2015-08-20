@@ -1,15 +1,30 @@
+section  {
+    font-size: 3em;
+}
+
+.hide {
+    display: none;
+}
+
+#splash {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,1);
+	top: 0px;
+	left: 0px;
+	z-index: 9999;
+}
+
 
 .notification {
-	position: absolute;
 	font-size: 4em;
 	text-align: center;
-	top: 10%;
-	left: 30%;
-	margin: 100px auto 0 auto;
+	margin: 20% auto 0 auto;
 	font-family: Helvetica;
 	text-transform: uppercase;
 	color: white;
-	z-index: 9999;
+	text-align: center;
 
 }
 

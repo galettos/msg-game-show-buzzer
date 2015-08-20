@@ -5,38 +5,55 @@ class PusherController < ApplicationController
   def buzzer
   end
 
-  def p1
 
-
-  end
-
-  def buzzin_player_one
+  def buzzin_player_eric_farias
   	Pusher.trigger('buzzer', 'my_event', {
-  		message: 'Player One'
+  		message: 'Eric Farias'
   	})
-  	redirect_to '/p1'
+    redirect_to '/eric'
   end
 
-  def buzzin_player_two
+  def buzzin_player_lindsey_laparl
     Pusher.trigger('buzzer', 'my_event', {
-      message: 'Player Two'
+      message: 'Lindsey LaParl'
     })
-    redirect_to '/p2'
+    redirect_to '/lindsey'
   end
 
-  def buzzin_player_three
+  def buzzin_player_shane_dubay
     Pusher.trigger('buzzer', 'my_event', {
-      message: 'Player Three'
+      message: 'Shane Dubay'
     })
-    redirect_to '/p3'
+    redirect_to '/shane'
   end
 
-  def buzzin_player_four
+  def buzzin_player_maggie_dai
     Pusher.trigger('buzzer', 'my_event', {
-      message: 'Player Four'
+      message: 'Maggie Dai'
     })
-    redirect_to '/p4'
+    redirect_to '/maggie'
   end
+
+  def buzzin_player_chad_behnke
+    Pusher.trigger('buzzer', 'my_event', {
+      message: 'Chad Behnke'
+    })
+    redirect_to '/chad'
+  end
+
+  def buzzin_player_brianna_schmall
+    Pusher.trigger('buzzer', 'my_event', {
+      message: 'Brianna Schmall'
+    })
+    redirect_to '/brianna'
+  end  
+
+  def buzzin_player_lisa_szkatulski
+    Pusher.trigger('buzzer', 'my_event', {
+      message: 'Brianna Schmall'
+    })
+    redirect_to '/brianna'
+  end  
 
 end
 
