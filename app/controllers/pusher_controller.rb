@@ -50,9 +50,9 @@ class PusherController < ApplicationController
 
   def buzzin_player_lisa_szkatulski
     Pusher.trigger('buzzer', 'my_event', {
-      message: 'Brianna Schmall'
+      message: 'Lisa Szkatulski'
     })
-    redirect_to '/brianna'
+    redirect_to '/lisa'
   end  
 
 end
